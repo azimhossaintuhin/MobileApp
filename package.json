@@ -10,13 +10,26 @@
     "test": "jest"
   },
   "dependencies": {
+    "formik": "^2.4.6",
     "react": "18.2.0",
-    "react-native": "0.74.2"
+    "react-native": "0.74.2",
+    "react-native-bouncy-checkbox": "^4.0.1",
+    "yup": "^1.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
+    "@babel/plugin-transform-async-generator-functions": "^7.24.7",
+    "@babel/plugin-transform-class-properties": "^7.24.7",
+    "@babel/plugin-transform-logical-assignment-operators": "^7.24.7",
+    "@babel/plugin-transform-nullish-coalescing-operator": "^7.24.7",
+    "@babel/plugin-transform-numeric-separator": "^7.24.7",
+    "@babel/plugin-transform-object-rest-spread": "^7.24.7",
+    "@babel/plugin-transform-optional-catch-binding": "^7.24.7",
+    "@babel/plugin-transform-optional-chaining": "^7.24.7",
     "@babel/preset-env": "^7.20.0",
     "@babel/runtime": "^7.20.0",
+    "@eslint/config-array": "^0.17.0",
+    "@eslint/object-schema": "^2.1.4",
     "@react-native/babel-preset": "0.74.84",
     "@react-native/eslint-config": "0.74.84",
     "@react-native/metro-config": "0.74.84",
